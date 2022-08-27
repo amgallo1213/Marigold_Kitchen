@@ -76,10 +76,78 @@ img {
 }
 
 #menu-items {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin-bottom: 60px;
+}
+
+.course-number  {
+    text-align: center;
 }
 
 .course-item {
     color: #adb5bd;
 }
+
+#sample_menu    {
+    margin-bottom: 20px;
+}
+
+h3  {
+    color: #6c757d;
+}
+
+#hours,
+#reservation  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#reservation    {
+    margin-bottom: 60px;
+}
+
+a   {
+    text-decoration: none;
+}
+
+.rez-times {
+    margin-top: 80px;
+    margin-left: 40px;
+    color: #6c757d;
+    font-size: 1.0rem;
+}
+
+.hours  {
+    margin-top: -15px;
+    text-align: center;
+}
+
+.address    {
+    margin-top: -15px;
+}
+
+#socials    {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    margin-right: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #FFAF00;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color:#adb5bd;
+}
+
