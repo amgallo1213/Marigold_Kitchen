@@ -84,10 +84,13 @@ img {
 
 .course-number  {
     text-align: center;
+    width: 200px;
 }
 
 .course-item {
     color: #adb5bd;
+    margin-top: -8px;
+    text-align: center;
 }
 
 #sample_menu    {
