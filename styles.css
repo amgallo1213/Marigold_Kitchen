@@ -1,15 +1,22 @@
-/* font-family: 'Merriweather', serif; */
 
 
 #home   {
     font-family: 'Merriweather', serif;
     color: #FFAF00;
+    margin-top: 1px;
 }
 
-h2  {
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
+#name   {
+    margin-top: 60px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1  {
+    font-family: 'Merriweather', serif;
     color: #FFAF00;
     text-align: center;
     margin-top: 40px;
@@ -18,12 +25,6 @@ h2  {
     font-weight: 700;
 }
 
-#about  {
-    text-align: center;
-    width: 70%;
-    margin-left: 250px;
-}
-=======
 #logo   {
     height: 100px;
     width: auto;
@@ -76,21 +77,19 @@ img {
 }
 
 #menu-items {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    text-align: center;
     margin-bottom: 60px;
 }
 
-.course-number  {
-    text-align: center;
-    width: 200px;
+.menu-items   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .course-item {
     color: #adb5bd;
-    margin-top: -8px;
-    text-align: center;
+    margin-top: -20px;
 }
 
 #sample_menu    {
@@ -153,4 +152,5 @@ a   {
     opacity: 0.7;
     color:#adb5bd;
 }
+
 
