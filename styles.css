@@ -81,8 +81,15 @@ img {
     margin-bottom: 60px;
 }
 
+.menu-items   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .course-item {
     color: #adb5bd;
+    margin-top: -20px;
 }
 
 #sample_menu    {
