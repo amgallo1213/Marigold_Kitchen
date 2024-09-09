@@ -53,7 +53,7 @@
 
     <section>
         <div id="name">
-             <img src="images/logo.jpeg" alt="" id="logo">
+            <img src="images/logo.jpeg" alt="" id="logo">
             <h1>Marigold Kitchen</h1>
         </div>
     </section>
@@ -84,25 +84,27 @@
     </div>
 
     <section>
-        <h2>A Little About Us</h2>
-        <div id="about">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                laborum.</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                laborum.</p>
+        <div class="container-fluid about" >
+            <h2>A Little About Us</h2>
+            <div id="about">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum.</p>
+    
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum.</p>
+            </div>
         </div>
         <hr>
         </hr>
@@ -186,11 +188,12 @@
                 <p class="course-item">Caramel Popcorn</p>
             </div>
     </section>
-    <hr></hr>
+    <hr>
+    </hr>
 
 
 
-    <section>
+    <section id="hours-location">
         <h2>Hours & Location</h2>
         <div id="hours">
             <div>
@@ -209,13 +212,15 @@
                     <p class="hours">Plan to spend around 2 - 3 hours dining with us.</p>
                 </div>
             </div>
-            <div>
+            <div id="address">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.601750779349!2d-75.21488798461819!3d39.95029697942211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c6f20120abf3%3A0x6545294ce7b42baf!2sS%2045th%20St%20%26%20Larchwood%20Ave%2C%20Philadelphia%2C%20PA%2019104!5e0!3m2!1sen!2sus!4v1660571253907!5m2!1sen!2sus"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <p>501 S 45th Street</p>
-                <p class="address">Philadelphia, PA 19104</p>
+                <div>
+                    <p>501 S 45th Street</p>
+                    <p class="address">Philadelphia, PA 19104</p>
+                </div>
             </div>
         </div>
         <hr>
@@ -245,6 +250,15 @@
             <a href="#" class="fa fa-instagram"></a>
         </div>
     </footer>
+
+
+
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+        Launch demo modal
+    </button>
+
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

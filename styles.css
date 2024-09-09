@@ -47,7 +47,8 @@ h2  {
 
 hr  {
     width: 70%;
-    margin-left: 250px;
+    /* margin-left: 250px; */
+    margin: 0 auto;
 }
 
 #about  {
@@ -65,19 +66,18 @@ hr  {
 }
 
 img {
-    width: 500px;
-    height: auto;
+    display: block;
+    max-width: 100%;
     margin-bottom: 40px;
 }
 
 #chef-bio   {
-    width: 500px;
+    padding: 20px;
 }
 
 .chef-bio-2   {
     margin-top: 10px;
 }
-
 
 .menu-items   {
     display: flex;
@@ -105,6 +105,10 @@ h3  {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+#hours  {
+    margin-bottom: 40px;
 }
 
 #reservation    {
@@ -160,3 +164,37 @@ h3:hover    {
 }
 
 
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+
+@media (max-width: 575.98px) { 
+    #name, #chef, #hours-loation, #hours, .about, #address   {
+        display: flex;
+        flex-direction: column;
+    }
+    #about  {
+        margin: 20px;
+        padding: 20px;
+        width: 100%;
+    }
+    #address    {
+        align-items: center;
+    }
+    iframe  {
+        max-width: 90%;
+        padding: 20px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 767.98px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 991.98px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1199.98px) { ... }
