@@ -124,18 +124,20 @@ h3:hover    {
     color: #FFAF00;
 }
 
-
-.rez-times {
-    margin-top: 80px;
-    margin-left: 40px;
-    color: #6c757d;
-    font-size: 1.0rem;
-}
-
 .hours  {
-    margin-top: -15px;
+    margin-top: 40px;
+    color: #6c757d;
     text-align: center;
 }
+
+.rez-times {
+    margin-top: 40px;
+    color: #6c757d;
+    font-size: 1.0rem;
+    text-align: center;
+    text-wrap: balance;
+}
+
 
 .address    {
     margin-top: -15px;
