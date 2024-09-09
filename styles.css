@@ -1,9 +1,11 @@
-
-
-#home   {
+.nav-link   {
     font-family: 'Merriweather', serif;
     color: #FFAF00;
-    margin-top: 1px;
+    margin-top: 1px; 
+}
+
+.nav-link:hover {
+    color: #6c757d;
 }
 
 #name   {
@@ -111,9 +113,15 @@ h3  {
     margin-bottom: 60px;
 }
 
-a   {
+.rez-link:hover   {
     text-decoration: none;
+    
 }
+
+h3:hover    {
+    color: #FFAF00;
+}
+
 
 .rez-times {
     margin-top: 80px;
